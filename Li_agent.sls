@@ -1,4 +1,4 @@
-copy-liagent-rpm:
+copy-liagent:
    cmd.run:
       - name: sudo curl -k https://github.com/vmwvbcindia/Saltstack/vmware-log-insight-agent_8.6.2-19075480_all.deb --output /tmp/vmware-log-insight-agent_8.6.2-19075480_all.deb
 install-liagent:
